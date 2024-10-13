@@ -1,0 +1,9 @@
+App\Entity\Measurement:
+  properties:
+    celsius:
+      - NotBlank:
+          groups: [ 'create' ]
+      - Range:
+          min: -100
+          max: 60
+          groups: [ 'create' ]
