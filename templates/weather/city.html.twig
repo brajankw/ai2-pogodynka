@@ -10,7 +10,7 @@
 
             <ul>
                 {% for measurement in measurements %}
-                    <li>{{ measurement.measure_date|date('d.m.Y') }}: {{ measurement.celsius }}&deg;C</li>
+                    <li>{{ measurement.measureDate|date('d.m.Y') }}: {{ measurement.celsius }}&deg;C</li>
                 {% endfor %}
             </ul>
         </main>
